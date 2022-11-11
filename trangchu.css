@@ -1,0 +1,249 @@
+.container{
+    
+    margin: 0px auto;
+    border: #784a0c 1px solid;
+    border-radius: 2px;
+    background-color: #f5f0ea;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Roboto',Arial,sans-serif;
+}
+
+.goi{
+    float: right;
+    
+    border: solid black 2px;
+    border-radius: 15px;
+    background-color: #fae2c3;
+    font-size: 25px;
+    margin-right: 15px;
+    margin-top: 103px;
+    
+}
+.goi>a{
+    text-decoration: none;
+    margin: 5px;
+}
+.logo{
+    float: left;
+    
+    
+}
+nav{
+    padding-top: 75px;
+    height: 60px;
+    /* background-color: green; */
+    color: rgb(42, 16, 16);
+}
+nav>ul{
+    list-style: none;
+    margin-left: 50px;
+}
+nav>ul>li{
+    display: inline-block;
+}
+nav>ul>li>a{
+    color: rgb(31, 20, 20);
+    font-size: 25px;
+    /* font-variant: small-caps; */
+    text-decoration: none;
+    line-height: 60px;
+    margin: 0 15px;
+}
+nav>ul>li>a:hover{
+    color:#784a0c;
+}
+nav ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 3px gray;
+}
+nav ul ul a{
+    display: block;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    /* font-variant: small-caps; */
+    font-size: larger;
+    padding: 0 10px;
+}
+nav>ul>li:hover>ul{
+    display: block;
+
+}
+nav ul ul a:hover{
+    background-color:#97703e;
+    color:rgb(14, 1, 1);
+}
+
+/*phần banenr*/
+.mySlides {display:none; width:100%}
+.banner>div>img{
+    
+    height: 600px;
+    
+}
+.vanban{
+    width: 850px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #f5f0ea;
+    
+}
+.vanban{
+    
+    font-size: 15px;
+    line-height: 1.5;
+    color: #282828;
+    background-color: #f5f0ea;
+}
+.mane{
+    
+    height: 200px;
+    background-image: url(image/Premium\ Vector\ _\ Orange\ yellow\ and\ black\ abstract\ business\ background_.jfif);
+    background-size: 100% 100%;
+    
+}
+.mane1{
+    padding-top: 10px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    padding-left: 270px;
+}
+.mane1>a>img{
+    padding-left: 15px;
+    
+    height: 100px;
+    width: 100px;}
+.mane1>a{
+    text-decoration: none;}
+.mane1>a>h2{
+    color: #f2ae54;
+    width: 200px;
+
+}
+.mane1>a:hover{
+    
+    color: #784a0c;
+    
+}
+.mane1>a>img:hover{
+    height: 120px;
+    width: 120px;
+}
+.tin{
+    width: 300px;
+    height: 200px;
+    background-image: url(image/logo1.png);
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    color: black;
+    /* position: absolute; */
+    
+    float: left;   
+}
+/* .tin1{
+    display: block;
+    position: absolute;
+    
+    
+} */
+
+/* .menuke>a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+} */
+#ma{
+    margin-top: 300px;
+}
+.danhgia{
+    width: 120px;
+    height: 200px;
+    float: left;
+    margin: 100px;
+    
+}
+.danhgia>img{
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+
+}
+.center{
+    width: 120px;
+    text-align: center;
+    margin-left: 55px;
+} 
+.mySlides1{display:none; width:100%}
+.button-left{left:1%; font-size:20px}
+.button-right{right:1%; font-size:20px }
+.image-button{border:none;display:inline-block;padding:10px;height:50px;vertical-align:middle;overflow:hidden; color:#fff;background:#000;position:absolute;top:calc(50% - 25px); opacity:0.5;}
+.image-button:hover{color:#000;background-color:#ccc;}
+.display-container1{position:relative}
+.display-container1>button{
+    margin-top: 350px;
+}
+#van{
+    margin-top: 800px;
+}
+#van>button{
+    font-size: 23px;
+    background-color: #f2ae54;
+    border-radius: 20px;
+    padding: 8px;
+
+}
+.banner2>img{
+    height: 600px;
+    width: 100%;
+    
+}
+.vang{
+    background: #ca8121;
+    text-align: center;
+    height: 80px;
+}
+.vang>a>img{
+    height: 80px;
+    
+}
+footer{
+    height: 250px;
+    background-color: #3aca21;
+    padding-left: 500px;
+}
+.tin1{
+    width: 250px;
+    float: left;
+    padding-left: 40px;
+    font-size: 13px
+
+    
+}
+.tin1>img{
+    height: 50px;
+}
+.tin1>a{
+    text-decoration: none;
+    color: black;
+}
+

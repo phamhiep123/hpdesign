@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thiết kế</title>
+    <!-- <link rel="stylesheet" href="trangchu.css"> -->
+    <style>
+        .mySlides {display:none; width:100%}
+        .button-left{left:1%; font-size:40px}
+        .button-right{right:1%; font-size:40px }
+        .image-button{border:none;display:inline-block;padding:10px;height:50px;vertical-align:middle;overflow:hidden; color:#fff;background:#000;position:absolute;top:calc(50% - 25px); opacity:0.5;}
+        .image-button:hover{color:#000;background-color:#ccc;}
+        .display-container{position:relative}
+        .danhgia{
+    width: 120px;
+    height: 200px;
+    float: left;
+    margin: 100px;
+    
+}
+.danhgia>a>img{
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+
+}
+.center{
+    width: 120px;
+    text-align: center;
+    margin-left: 55px;
+}
+    </style>
+</head>
+<body>
+    <h2 class="">Manual Slideshow</h2>
+
+<div class="display-container">
+  <div class="mySlides"> 
+    <div class="danhgia">
+    <a href=""><img src="image/Kumpulan Wallpaper Anime Jujutsu Kaisen on We Heart It.jpg" alt="" ></a>
+    <br><br>
+    <div class="center">
+        ⭐⭐⭐⭐⭐ <br>
+        <h3>Thanh Candy</h3>
+        Founder | Rùa's Garden
+    </div>
+</div>
+<div class="danhgia">
+    <a href=""><img src="image/Kumpulan Wallpaper Anime Jujutsu Kaisen on We Heart It.jpg" alt="" ></a>
+    <br><br>
+    <div class="center" id="aa">
+        ⭐⭐⭐⭐⭐ <br>
+        <h3>Thanh Candy</h3>
+        Founder | Rùa's Garden
+    </div></div>
+  <div class="mySlides"> <div class="danhgia">
+    <a href=""><img src="image/Kumpulan Wallpaper Anime Jujutsu Kaisen on We Heart It.jpg" alt="" ></a>
+    <br><br>
+    <div class="center">
+        ⭐⭐⭐⭐⭐ <br>
+        <h3>Thanh Candy</h3>
+        Founder | Rùa's Garden
+    </div>
+</div>
+<div class="danhgia">
+    <a href=""><img src="image/Kumpulan Wallpaper Anime Jujutsu Kaisen on We Heart It.jpg" alt="" ></a>
+    <br><br>
+    <div class="center" id="aa">
+        ⭐⭐⭐⭐⭐ <br>
+        <h3>Thanh Candy</h3>
+        Founder | Rùa's Garden
+    </div></div>
+  
+
+  <button class="image-button button-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="image-button button-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+</body>
+</html>

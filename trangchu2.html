@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thiết kế</title>
+    <link rel="stylesheet" href="trangchu.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="image/logo.png" alt="" width="250px" height="250px"></a>
+            </div>
+            <div class="goi">
+                <a href="#">📞 <b>0975680612</b></a></div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/trangchu.html">TRANG CHỦ</a></li>
+                    <li><a href="#">DỊCH VỤ</a>
+                        <ul>
+                            <li><a href="#">Thiết kế Logo</a></li>
+                            <li><a href="#">Thiết kế Banner</a></li>
+                            <li><a href="#">Thiết kế Poster</a></li>
+                            <li><a href="#">Thiết kế Catalog</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">BLOG</a>
+                        <ul>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Cẩm nang thiết kế</a></li>
+                            <li><a href="#">Khác</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">GIỚI THIỆU</a>
+                        
+                    </li>
+                    <li><a href="#">LIỆN HỆ</a></li>
+                </ul>
+               
+            </nav>
+            
+        </header>
+        <br>
+        <div class="banner">
+            <div>
+                <img class="mySlides" src="image/bannertong.jpg">
+                <img class="mySlides" src="image/hoangdesign.png">
+                <img class="mySlides" src="image/hoangdesign2.png">
+
+            </div>
+            <script>
+                var myIndex = 0;
+                carousel();
+                
+                function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  myIndex++;
+                  if (myIndex > x.length) {myIndex = 1}    
+                  x[myIndex-1].style.display = "block";  
+                  setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+                </script>
+        </div>
+        <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "106807750811544");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+    <div class="vanban">
+        <h1>Chào mừng bạn đến với HP. desgin!</h1>
+        <p>HP. desgin là công ty chuyên thiết kế logo, nhận diện thương hiệu, thiết kế website và chạy quảng cáo Google - Facebook. Với hơn 15 năm kinh nghiệm, chúng tôi tự hào đã đồng hành cùng 20,000+ doanh nghiệp trong hành trình xây dựng thương hiệu chuyên nghiệp. HP. desgin tự tin và cam kết đem lại dịch vụ tốt nhất cho khách hàng!</p>
+        <p>Dưới đây là những dịch vụ chính mà chúng tôi cung cấp</p>
+    </div>
+    <div class="mane">
+        <div class="mane1">
+            <a href="#">
+                <img src="image/logothietke.png" alt="" >
+                <h2>Thiết kế Logo, banner, poster,..</h2>
+            </a>
+        </div>
+        <div class="mane1">
+            <a href="#">
+                <img src="image/logotuvan2.png" alt="" >
+                <h2>Tư vấn online</h2>
+            </a>
+        </div>
+    </div>
+    <div class="vanban">
+        <h3>Dự án đã thực hiện</h3>
+        <p>Dưới đây là một số dự án mới nhất mà chúng tôi đã thực hiện</p>
+    </div>
+    <br><br>
+    <div class="menuke">
+        <a href="#">
+        <div class="tin">
+            <div class="tin1">
+                <h5>Thiết kết thương hiệu DAILY</h5>
+                <i>Thiết kế logo</i>
+            </div>
+        </div></a>
+        <a href="#">
+        <div class="tin">
+            <div class="tin1">
+                <h5>Thiết kết thương hiệu DAILY</h5>
+                <i>Thiết kế logo</i>
+            </div>
+        </div></a>
+        <a href="#">
+        <div class="tin">
+            <div class="tin1">
+                <h5>Thiết kết thương hiệu DAILY</h5>
+                <i>Thiết kế logo</i>
+            </div>
+        </div></a>
+        <a href="#">
+        <div class="tin">
+            <div class="tin1">
+                <h5>Thiết kết thương hiệu DAILY</h5>
+                <i>Thiết kế logo</i>
+            </div>
+        </div></a>
+    </div>
+    <div class="mane" id="ma">
+        <div class="mane1">
+            <a href="#">
+                <img src="image/logothietke.png" alt="" >
+                <h2>Thiết kế Logo, banner, poster,..</h2>
+            </a>
+        </div>
+        <div class="mane1">
+            <a href="#">
+                <img src="image/logotuvan2.png" alt="" >
+                <h2>Tư vấn online</h2>
+            </a>
+        </div>
+    </div>
+    <div class="vanban">
+        <h3>Khách hàng đã nói gì về chúng tôi</h3>
+        <p>hơn 1000+ khách hàng đã sử dụng dịch vụ của chúng tôi và còn nhiều hơn thế nữa</p>
+    </div>
+    <div class="display-container1">
+    <div class="mySlides1">
+    
+        <div class="danhgia">
+        <img src="image/Kumpulan Wallpaper Anime Jujutsu Kaisen on We Heart It.jpg" alt="" >
+        <br><br>
+        <div class="center">
+            ⭐⭐⭐⭐⭐ <br>
+            <h3>Thanh Candy</h3>
+            Founder | Rùa's Garden
+        </div>
+        </div>
+        <div class="danhgia">
+        <img src="image/Kumpulan Wallpaper Anime Jujutsu Kaisen on We Heart It.jpg" alt="" >
+        <br><br>
+        <div class="center">
+            ⭐⭐⭐⭐⭐ <br>
+            <h3>Thanh Candy</h3>
+            Founder | Rùa's Garden
+        </div>
+        </div>
+        <div class="danhgia">
+        <img src="image/Kumpulan Wallpaper Anime Jujutsu Kaisen on We Heart It.jpg" alt="" >
+        <br><br>
+        <div class="center">
+            ⭐⭐⭐⭐⭐ <br>
+            <h3>Thanh Candy</h3>
+            Founder | Rùa's Garden
+        </div>
+        </div>
+        <div class="danhgia">
+        <img src="image/Kumpulan Wallpaper Anime Jujutsu Kaisen on We Heart It.jpg" alt="" >
+        <br><br>
+        <div class="center">
+            ⭐⭐⭐⭐⭐ <br>
+            <h3>Thanh Candy</h3>
+            Founder | Rùa's Garden
+        </div>
+        </div>
+        <div class="danhgia">
+        <img src="image/Kumpulan Wallpaper Anime Jujutsu Kaisen on We Heart It.jpg" alt="" >
+        <br><br>
+        <div class="center">
+            ⭐⭐⭐⭐⭐ <br>
+            <h3>Thanh Candy</h3>
+            Founder | Rùa's Garden
+        </div>
+        </div>
+        <div class="danhgia">
+        <img src="image/Kumpulan Wallpaper Anime Jujutsu Kaisen on We Heart It.jpg" alt="" >
+        <br><br>
+        <div class="center">
+            ⭐⭐⭐⭐⭐ <br>
+            <h3>Thanh Candy</h3>
+            Founder | Rùa's Garden
+        </div>
+        </div>
+       
+    </div>
+    <div class="mySlides1">
+        <div class="danhgia">
+            <img src="image/Kumpulan Wallpaper Anime Jujutsu Kaisen on We Heart It.jpg" alt="" >
+            <br><br>
+            <div class="center">
+                ⭐⭐⭐⭐⭐ <br>
+                <h3>Thanh Candy</h3>
+                Founder | Rùa's Garden
+            </div>
+            </div>
+            <div class="danhgia">
+            <img src="image/logo5.png" alt="" >
+            <br><br>
+            <div class="center">
+                ⭐⭐⭐⭐⭐ <br>
+                <h3>Thanh Candy</h3>
+                Founder | Rùa's Garden
+            </div>
+            </div>
+            <div class="danhgia">
+            <img src="image/Kumpulan Wallpaper Anime Jujutsu Kaisen on We Heart It.jpg" alt="" >
+            <br><br>
+            <div class="center">
+                ⭐⭐⭐⭐⭐ <br>
+                <h3>Thanh Candy</h3>
+                Founder | Rùa's Garden
+            </div>
+            </div>
+            <div class="danhgia">
+            <img src="image/Kumpulan Wallpaper Anime Jujutsu Kaisen on We Heart It.jpg" alt="" >
+            <br><br>
+            <div class="center">
+                ⭐⭐⭐⭐⭐ <br>
+                <h3>Thanh Candy</h3>
+                Founder | Rùa's Garden
+            </div>
+            </div>
+    </div>
+        <button class="image-button button-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="image-button button-right" onclick="plusDivs(1)">&#10095;</button>
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides1");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
+    </div>
+    
+    <div class="vanban" id="van">
+        <h1>Bạn cần thiết kế? chúng tôi là một ai đó bạn có thể tin tưởng</h1>
+        <button>Liện hệ ngay</button>
+    </div>
+    <br><br>
+    <div class="banner2">
+    <img src="image/hoangdesign2.png" alt="" >
+    </div>
+    <div class="vang">
+        <a href="#"><img src="image/lienhe/facebook.png" alt=""></a>
+        <a href="#"><img src="image/lienhe/behance.png" alt=""></a>
+        <a href="#"><img src="image/lienhe/google.png" alt=""></a>
+        <a href="#"><img src="image/lienhe/pters.png" alt=""></a>
+    </div>
+    <footer>
+        <div class="tin1">
+            <h1>Gới thiệu</h1>
+            HP. desgin là nơi hội tụ những sáng tạo,
+             nhiệt huyết và đam mê - 100% đến với chúng tôi
+              đã hài lòng về sản phẩm. <br>
+            <img src="image/lienhe/logoSaleNoti.png" alt="">
+        </div>
+        <div class="tin1">
+            <h1>Chính sách và quy định</h1>
+            <a href="#">Chính sách và quy định chung</a><br>
+            <a href="">Phương thức thanh toán</a><br>
+            <a href="">Chính sách giao nhận thiết kế</a><br>
+            <a href="">Chính sách sửa đổi thiết kế và hoàn tiền</a><br>
+            <a href="">Chính sách bảo mật thông tin cá nhân</a>
+        </div>
+        <div class="tin1">
+            <h1>Blogs mới nhất</h1>
+            tạm thời chưa có
+        </div>
+        <div class="tin1">
+            <h1>Thông tin liên hệ</h1>
+            tạm thời chưa có nốt<tfoot></tfoot>
+        </div>
+        
+    
+    </footer>
+   
+    </div>
+</body>
+</html>
